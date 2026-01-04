@@ -70,7 +70,27 @@ fn main() {
     let c = data.2;
     println!("{} {} {}", a, b, c);
     let (d, e, f, _) = data;
-    println!("{} {} {}", d, e, f)
+    println!("{} {} {}", d, e, f);
+
+    let mut numbers = [1, 2, 3, 4, 5];
+    println!("{:?}", numbers);
+    println!("{}", numbers[0]);
+    numbers[0] = 6;
+    println!("{:?}", numbers);
+    let panjang_numbers = numbers.len();
+    println!("panjang numbers: {}", panjang_numbers);
+
+    let matrix = [[1, 7], [3, 5]];
+    println!("{:?}", matrix);
+    println!("[0][0] = {}", matrix[0][0]);
+    println!("[0][1] = {}", matrix[0][1]);
+    println!("[1][0] = {}", matrix[1][0]);
+    println!("[1][1] = {}", matrix[1][1]);
+    println!("[0] = {:?}", matrix[0]);
+
+    const MIN: i32 = 0;
+    const MAX: i32 = 100;
+    println!("min: {}, max: {}", MIN, MAX);
 }
 
 #[test]
