@@ -1,5 +1,3 @@
-// use std::io;
-
 fn main() {
     println!("I Love Annida Hanifah!");
     let x = 10;
@@ -60,6 +58,19 @@ fn main() {
     let result2 = 10 > 9;
     let result3 = result && result2;
     println!("result3: {}", result3);
+
+    let char1 = 'a';
+    let char2 = 'b';
+    println!("{}, {}", char1, char2);
+
+    let data = (10, 10.5, "afan", true);
+    println!("{:?}", data);
+    let a = data.0;
+    let b = data.1;
+    let c = data.2;
+    println!("{} {} {}", a, b, c);
+    let (d, e, f, _) = data;
+    println!("{} {} {}", d, e, f)
 }
 
 #[test]
