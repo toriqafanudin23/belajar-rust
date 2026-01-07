@@ -3,5 +3,5 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
-    "workbench.colorTheme": "One Candy"
+    "workbench.colorTheme": "GitHub Dark"
 }
